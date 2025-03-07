@@ -1,0 +1,21 @@
+package List_Exp;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class List_Behaviour {
+	public static void main(String[] args) {
+		
+		List l1 =new ArrayList();
+		l1.add(90);
+		l1.add(45);
+		l1.add(56);
+		l1.add(12);
+		l1.add(30);
+		System.out.println(l1);
+		
+		
+		
+	}
+
+}

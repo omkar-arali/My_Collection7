@@ -1,0 +1,15 @@
+package basic_program;
+
+public class Rev_str {
+	public static void main(String[] args) {
+		String name = "india";
+		String reverse="";
+		
+		for(int i=name.length()-1;i>=0;i--)
+		{
+			reverse=reverse+charAt(i);
+			System.out.print(reverse);
+		}
+	}
+
+}
